@@ -1,0 +1,278 @@
+.form-horizontal {
+	
+	margin-left: 30%;
+}
+
+.form-group-down {
+
+	margin-top: 30px;
+	margin-right: 300px;
+	margin-left: 120px;
+}
+
+
+
+.btn {
+
+
+	background-color: #0b62A4;
+}
+
+.col-sm-3-1 {
+
+
+	margin-top: 30px;
+	margin-right: 230px;
+	font-color: orange;
+}
+
+
+#mainNav{
+
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#mainNav2{
+
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: gray;
+
+}
+
+#bs-example-navbar-collapse-1 {
+
+
+	margin-top: 10px;
+}  
+
+.navbar-default .nav > li > a, .navbar-default .nav > li > a:focus {
+    color: #0b62A4;
+}
+
+.btn-default:hover {
+  color:#B2DFDB;
+}
+
+.navbar-default .nav > li > a:hover, .navbar-default .nav > li > a:focus:hover {
+    color: #B2DFDB;
+}
+
+
+.btn {
+  color:white;
+}
+
+#searchform {
+
+	margin-left: 660px;
+}
+
+
+.row {
+
+	margin-left: -2%;
+	margin-right: -5%;
+}
+
+#pagewrapper {
+
+	margin-top: -20px;
+}
+
+.img-circle, .thumbnail {
+
+	border-radius: 50%;
+	height: 80px;
+	width: 80px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#tableform {
+
+	margin-left: 22%;
+	margin-bottom: 2%;
+	width: 60%;
+}
+
+#create {
+
+	margin-left:10%;
+}
+
+#inputphoto {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+/*#inputphoto + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    display: inline-block;
+}
+
+#inputphoto:focus + label,
+#inputphoto + label:hover {
+    background-color: red;
+}*/
+
+/*.thumb {
+
+	border-radius: 50%;
+}*/
+
+.img-responsive {
+	border-radius: 50%;
+}
+
+/*.pre-scrollable {
+  max-height: 340px;
+  overflow-y: scroll;
+}
+
+.modal-scrollbar-measure {
+  position: absolute;
+  top: -9999px;
+  width: 50px;
+  height: 50px;
+  overflow: scroll;
+}
+
+@media screen and (max-width: 767px) {
+  .table-responsive {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #ddd;
+  }
+
+  .navbar-collapse {
+  padding-right: 15px;
+  padding-left: 15px;
+  overflow-x: visible;
+  -webkit-overflow-scrolling: touch;
+  border-top: 1px solid transparent;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+
+   style="border-radius: 25px;
+	border: 2px solid #73AD21;
+	padding: 20px;"
+}*/
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: 250px;
+    margin-left: 40px;
+}
+
+
+
+.myBox {
+border: none;
+padding: 5px;
+height: 400px;
+overflow: scroll;
+overflow-x: hidden;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+width: 10px;
+height: 10px;
+}
+
+::-webkit-scrollbar-track {
+border-radius: 2px;
+width: 2px;
+border: 1px dotted black;
+}
+
+::-webkit-scrollbar-thumb {
+background: gray; 
+border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: gray;  
+}
+
+.myBox1 {
+border: none;
+padding: 5px;
+height: 200px;
+overflow: scroll;
+overflow-x: hidden;
+}
+
+.myBox2 {
+border: none;
+padding: 5px;
+height: 150px;
+overflow: scroll;
+overflow-x: hidden;
+}
+
+a {
+  color: blue;
+}
+
+a:hover {
+  color: #337ab7;
+}
+
+.panel-body {
+  background-color: white;
+}
+
+.panel-heading {
+  background-color: white;
+}
+
+#page-wrapper {
+  margin-left: 25%;
+  background-color: white;
+}
+
+.container-fluid {
+  background-color: white;
+}
+
+.table {
+  max-width: 80%;
+}
+
+td {
+  text-align: center;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+th {
+  text-align: center;
+}
+/*
+:required {
+  border-color: #337ab7;
+}
+*/
+
+/*.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    vertical-align: center;
+}*/
+
+
+header {
+  background-color: url('../img/New Logo.png') !important;
+}

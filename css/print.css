@@ -1,0 +1,82 @@
+
+		@media print {
+			#img {
+		        display:block;
+		        margin-top: -8%;
+		        margin-right: -25%;
+		        margin-left: 2% !important;
+	        }
+
+	        #address {
+		    	float: right;
+		    	display: block;
+		    	margin-top: -6%;
+		    	margin-right: 2%;
+		    }
+
+		    .lineGraphChart {
+			    width: 11%;
+			  }
+			#wrap {
+				margin-left: -95%;
+				max-width: 55% !important;
+				margin-bottom: 10% !important;
+			}
+
+			#tableToExport {
+				width: 80% !important;
+				margin-left: 5% !important;
+				margin-top: 100% !important;
+			}
+
+			#flex { display: flex; }
+		    #a { order: 2; }
+		    #b { order: 1; }
+		    #c { order: 3; }
+
+		    table { page-break-after:auto }
+			  tr    { page-break-inside:avoid; page-break-after:auto }
+			  td    { page-break-inside:avoid; page-break-after:auto }
+			  thead { display:table-header-group }
+			  tfoot { display:table-footer-group }
+
+			#forms, .morris-hover {
+				display: none;
+			}
+			body {
+				margin-left: -3px !important;
+			}
+
+			#imahe2 {
+		        /*height: 100px;
+		        width: 130px;*/
+		        float: left;
+		        border-radius: 50%;
+		    }
+		    #details {
+				margin-left: 50% !important;
+				text-align: center !important;
+				margin-top: 5% !important;
+			}
+		}
+
+		/*#lineGraphChart {
+			max-width: 20% !important;
+			margin-left: -80% !important;
+		}
+
+		#lineGraphChart1 {
+			max-width: 20% !important;
+			margin-left: -80% !important;
+		}
+
+		#lineGraphChart2 {
+			max-width: 20% !important;
+			margin-left: -80% !important;
+		}*/
+
+
+		/*#wrap {
+	        margin-left: -55%;
+	        width: 40%;
+	    }*/
